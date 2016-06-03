@@ -20,5 +20,7 @@ gulp.task('browser-sync', function() {
 gulp.task('default', ['start', 'browser-sync'], function() {
 	gulp.watch(['*.html'], browserSync.reload);
 	gulp.watch(['*.js'], browserSync.reload);
+	gulp.watch(['js/*.js'], browserSync.reload);
+	gulp.watch(['css/*.css'], browserSync.reload);
 });
 

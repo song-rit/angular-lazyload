@@ -10,8 +10,7 @@
      
     var factory = {
 
-		    	imageData : [ 	
-		 		
+		    	imageData : [ 			 		
 		 		{
 		 			url: "http://static.vecteezy.com/system/resources/previews/000/094/491/original/polygonal-texture-background-vector.jpg",
 		 			title: "1",
