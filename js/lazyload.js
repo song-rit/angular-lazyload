@@ -71,6 +71,7 @@
 					var url = "http://bennadel.github.io/JavaScript-Demos/demos/lazy-src-angularjs/"
 					var photos = [];
 					var now = ( new Date() ).getTime();
+						var image = ImageDataBase.getImageData();
 
 					
 
@@ -79,7 +80,6 @@
 						var index = ( ( i % 3 ) + 1 );
 						var version = ( now + i );
 						
-						var image = ImageDataBase.getImageData();
 
 						photos.push({
 							id: ( i + 1 ),
